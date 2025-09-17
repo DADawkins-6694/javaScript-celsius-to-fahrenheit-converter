@@ -1,0 +1,17 @@
+** start of script.js **
+
+// Function to convert Celsius to Fahrenheit
+function convertCtoF(celsius) {
+  // Apply the conversion formula
+  let fahrenheit = celsius * (9/5) + 32;
+  return fahrenheit; // Return the result as a number
+}
+
+// Examples:
+console.log(convertCtoF(0));    // 32
+console.log(convertCtoF(30));   // 86
+console.log(convertCtoF(-40));  // -40
+
+
+** end of script.js **
+
